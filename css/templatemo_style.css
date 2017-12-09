@@ -281,9 +281,8 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 .member-thumb {
     position: relative;
     overflow: hidden;
-}
-
-.member-thumb .thumb-overlay {
+    padding-top: 20px;
+}thumb .thumb-overlay {
     background-color: rgba(220, 157, 102, 0.8);
     position: absolute;
     visibility: hidden;
@@ -295,22 +294,24 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     right: 0;
     top: 0;
 }
-
 .thumb-overlay a {
     float:left;
     margin-right: 5px;
 }
-
-
-
 .team-inner {
     margin-top:10px;
 }
-
+.team-inner a {
+    color:#333333;
+}
+.team-inner p {
+    color:#333333;
+}
 .team-inner-header {
     font-family: 'Open Sans', sans-serif;
     font-weight:600;
     font-size:25px;
+    color: #333333;
 }
 .team-inner-subtext {
     font-weight:normal;
@@ -321,6 +322,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     font-family: 'Open Sans', sans-serif;
     font-weight:600;
     font-size:16px;
+    color: #333333;
 }
 .team-outer-subtext {
     font-weight:normal;
@@ -548,7 +550,6 @@ ul.templatemo-project-gallery  li  a img:hover {
 .blog_box {
 	margin-left: -12px;
 }
-
 @media (min-width:991px) and (max-width:1200px) {
     .templatemo-project-box, .project-overlay {
         height:170px;
